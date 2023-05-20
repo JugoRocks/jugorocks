@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Camomile Flower</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&family=Cousine&family=Raleway:wght@400;700&family=Pacifico&family=Marck+Script&family=Source+Sans+Pro:wght@400;700&family=Open+Sans:wght@400;700&family=Roboto:wght@400;700&family=Noto+Sans:wght@400;700&family=Roboto+Slab:wght@400;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+  </head>
+  <body>
+      <!-- Fullscreen Button (for Desktop) -->
+    <div class="fullscreen-btn" id="fullscreen-btn">
+    </div>
+    <div class="container">
+      <button class="center-btn" id="center-btn">Click Me!</button>
+      <button class="small-btn" id="small-btn-1"></button>
+      <button class="small-btn" id="small-btn-videopop"></button>
+      <button class="small-btn" id="small-btn-textopop"></button>
+      <button class="small-btn" id="small-btn-soundpop"></button>
+      <div class="add-btn-container">
+      <button class="add-btn" id="add-btn">+</button>
+      <div class="menu">
+        <button class="option-btn" data-id="textopop">T</button>
+        <button class="option-btn" data-id="photopop">P</button>
+        <button class="option-btn" data-id="videopop">V</button>
+        <button class="option-btn" data-id="soundpop">S</button>
+      </div>
+    </div>
+  
+    
+  <div class="popup" id="mainpop">
+    
+    <button id="close-btn">close</button>
+    
+    <div class="pop" id="videopop">
+    </div>
+  
+    <div class="pop" id="textopop">
+      <h3 style="text-align: center;">Text Popup</h3>
+      <p style="text-align: center;">This is the text popup content.</p>
+    </div>
+  
+    <div class="pop" id="photopop">
+      <h3 style="text-align: center;">Photo Popup</h3>
+      <p style="text-align: center;">This is the photo popup content.</p>
+    </div>
+    
+    <div class="pop" id="soundpop">
+    <button id="markit">mark</button>
+    <h3 style="text-align: center;">Sound Popup</h3>
+    <div class="audio-player">
+      <audio id="audio-player" src="" controls></audio>
+      <div class="bookmarks-container" id="book">
+        <h4>Bookmarks</h4>
+        <ul id="bookmarks-list"></ul>
+        
+      </div>
+    </div>
+  </div>
+  
+    
+      
+    
+  
+  <script src="script.js"></script>
+  </body>
+  
+  </html>
